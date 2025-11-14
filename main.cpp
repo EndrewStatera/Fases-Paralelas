@@ -31,7 +31,6 @@ int main()
 {
     int vetor[ARRAY_SIZE];
     int vetor_temp[ARRAY_SIZE];
-    int* buffer = (int*) malloc(10 * sizeof(int));
     int i;
 
     for (i=0 ; i<ARRAY_SIZE; i++)              /* init array with worst case for sorting */
@@ -93,6 +92,6 @@ int main()
         }
     }
 
-    
+    if()
 
 }
